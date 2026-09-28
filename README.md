@@ -16,7 +16,7 @@ Interfaz de la Aplicación de salud en Java (Swing/MVC) para gestionar medicaci�
 
 Siempre se ha tenido el problema de "¿a que hora me toca la medicación?" 
 
-### 2. Identificación del Público Objetivo
+## 2. Identificación del Público Objetivo
 
 La aplicación está diseñada para responder a las necesidades de gestión de salud de diferentes perfiles de usuarios. Tras el análisis de la encuesta y las necesidades del sector, se han identificado tres grupos principales de público objetivo:
 
