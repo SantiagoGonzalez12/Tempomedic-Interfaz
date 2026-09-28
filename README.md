@@ -60,7 +60,7 @@ El diseño de la interfaz de **Tempomedic** se ha estructurado para ofrecer una 
 * **Notificaciones a medida:** Permite configurar de forma global o individual el tipo de aviso (*Notificación*, *Alarma* o *Ambos*), respondiendo a la diversidad de preferencias detectada en los usuarios
 ####  --Seguridad, Privacidad y Feedback Claro
 * **Protección mediante PIN de acceso:** Implementación de una pantalla de desbloqueo rápido por PIN como capa extra de seguridad para los datos médicos del usuario
-* **Feedback:** La interfaz confirma las acciones del usuario de forma transparente (por ejemplo, mostrando avisos informativos tras solicitar el restablecimiento de contraseña)
+* **Feedback:** La interfaz confirma las acciones del usuario de forma transparente 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
