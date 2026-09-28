@@ -6,9 +6,10 @@ Interfaz de la Aplicación de salud en Java (Swing/MVC) para gestionar medicaci�
 1. [El problema](#1-el-problema)
 2. [Identificación del público objetivo](#2-identificacion-del-publico-objetivo)
 3. [Las decisiones técnicas](#2-las-decisiones-técnicas)
-4. [El proceso de trabajo](#3-el-proceso-de-trabajo)
-5. [Las pruebas](#4-las-pruebas)
-6. [El resultado obtenido](#5-el-resultado-obtenido)
+4. [Objetivos Principales de la Interfaz (UI/UX)](#4-objetivos-principales-de-la-interfaz-uiux)
+5. [El proceso de trabajo](#3-el-proceso-de-trabajo)
+6. [Las pruebas](#4-las-pruebas)
+7. [El resultado obtenido](#5-el-resultado-obtenido)
 
 ---
 
@@ -41,13 +42,34 @@ La aplicación está diseñada para responder a las necesidades de gestión de s
 
 ## 3. Las decisiones técnicas
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+## 4.  Objetivos Principales de la Interfaz (UI/UX)
+
+El diseño de la interfaz de **Tempomedic** se ha estructurado para ofrecer una experiencia sencilla, accesible y adaptada a las necesidades obtenidas en la encuesta. Los objetivos  del diseño son:
+
+####  --Centralización en un Dashboard Diario ("Hoy")
+* **Vista unificada:** La pantalla principal consolida en un único vistazo las tomas de medicación pendientes/completadas y las próximas citas médicas programadas
+* **Gestión de estados rápida:** Permite cambiar el estado de las tomas con botones directos de *"Tomada"*, *"Posponer"* u *"Omitida"* sin tener que navegar por varios menús
+
+####  --Navegación Sencilla e Intuitiva
+* **Navegación inferior fija :** La aplicación utiliza una barra principal con 4 secciones  definidas (*Hoy*, *Medicamentos*, *Citas*, *Ajustes*) para permitir un acceso rápido a cualquier función en 1 solo clic
+* **Formularios estructurados:** Las pantallas para añadir o editar medicamentos y citas emplean un diseño limpio mediante campos de selección y menús desplegables para agilizar la introducción de datos
+
+#### --Personalización y Accesibilidad Universal
+* **Ajuste de visibilidad y temas:** Desde la sección de ajustes, el usuario puede adaptar el tamaño del texto (*Normal*, *Grande*, *Muy grande*) y alternar entre tema *Claro* u *Oscuro* para facilitar la lectura a personas con visión reducida
+* **Notificaciones a medida:** Permite configurar de forma global o individual el tipo de aviso (*Notificación*, *Alarma* o *Ambos*), respondiendo a la diversidad de preferencias detectada en los usuarios
+####  --Seguridad, Privacidad y Feedback Claro
+* **Protección mediante PIN de acceso:** Implementación de una pantalla de desbloqueo rápido por PIN como capa extra de seguridad para los datos médicos del usuario
+* **Feedback:** La interfaz confirma las acciones del usuario de forma transparente (por ejemplo, mostrando avisos informativos tras solicitar el restablecimiento de contraseña)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 4. El proceso de trabajo
+## 5. El proceso de trabajo
 
 
 
-## 5. Las pruebas
+## 6. Las pruebas
 
 
 
