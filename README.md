@@ -4,6 +4,7 @@ Interfaz de la Aplicación de salud en Java (Swing/MVC) para gestionar medicaci�
 ## Índice
 
 1. [El problema](#1-el-problema)
+2. [Identificación del público objetivo](#2-identificacion-del-publico-objetivo)
 3. [Las decisiones técnicas](#2-las-decisiones-técnicas)
 4. [El proceso de trabajo](#3-el-proceso-de-trabajo)
 5. [Las pruebas](#4-las-pruebas)
