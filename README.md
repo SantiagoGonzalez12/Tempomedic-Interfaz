@@ -20,7 +20,7 @@ Repositorio principal: <https://github.com/SantiagoGonzalez12/Tempomedic>
 
 ## 1. El problema
 
-Siempre se ha tenido el problema de "¿A que hora me toca la medicación?"
+Siempre se ha tenido el problema de "¿A que hora me toca la medicación?" y se nos olvida tomarla. Esto puede desencadenar severos problemas y afectar gravemente a la salud. No todo queda ahí, además, el proceso de poder coger cita médica es apps públicas o mismamente presencial provoca "desesperación" a las personas. Por lo cuál se ha decidido desarrollar una app que cubra estas necesidades y que ayude positivamente a la toma de los medicamentos. 
 
 ## 2. Identificación del Público Objetivo
 
