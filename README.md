@@ -1,6 +1,10 @@
 # Tempomedic-Interfaz
 
-Interfaz de la Aplicación de salud en Java (Swing/MVC) para gestionar medicación y citas médicas: recordatorios por notificación o alarma, e historial de tomas. Proyecto Intermodular DAM. https://github.com/SantiagoGonzalez12/Tempomedic
+<img src="docs/img/logo/Logo_Tempomedic.svg" alt="Logo" width="100%" height="100">
+
+Interfaz de la Aplicación de salud en Java (Swing/MVC) para gestionar medicación y citas médicas: recordatorios por notificación o alarma, e historial de tomas. Proyecto Intermodular DAM.
+
+Repositorio principal: <https://github.com/SantiagoGonzalez12/Tempomedic>
 
 ## Índice
 
