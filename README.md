@@ -66,7 +66,8 @@ El diseño de la interfaz de **Tempomedic** se ha estructurado para ofrecer una 
 * **Feedback:** La interfaz confirma las acciones del usuario de forma transparente
 
 ## 5. El proceso de trabajo
-
+Para comenzar, se ha analizado el perfil de los usuarios a través de una encuesta recopilando sus necesidades, las ventajas, desventajas y sus preferencias. Posteriormente, tras los resultados, se ha puesto en común las ideas surgidas y la toma de decisiones para poder comenzar a trabajar y meter mano en la aplicación. 
+Con diversos problemas surgidos para la elección del nombre, al final se ha decidido por TempoMedic. Una vez que la app va cogiendo personalidad propia, se comienza a buscar los colores identificativos para la interfaz, mostrada anteriormente, con colores tenues y sencillo que sea agradable a la vista de los usuarios. 
 ## 6. Las pruebas
 
 ## 7. El resultado obtenido
