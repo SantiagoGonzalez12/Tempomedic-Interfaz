@@ -33,7 +33,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jpContenedorPrincipal = new javax.swing.JPanel();
         jpVistaHoy = new javax.swing.JPanel();
         jpVistaMedicamentos = new javax.swing.JPanel();
-        jpVistaCitas = new javax.swing.JPanel();
+        jpVistaAjustes1 = new javax.swing.JPanel();
         jpVistaAjustes = new javax.swing.JPanel();
         jpBarraInferior = new javax.swing.JPanel();
         btnHoy = new javax.swing.JButton();
@@ -50,7 +50,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jpVistaHoy.setLayout(jpVistaHoyLayout);
         jpVistaHoyLayout.setHorizontalGroup(
             jpVistaHoyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 436, Short.MAX_VALUE)
+            .addGap(0, 360, Short.MAX_VALUE)
         );
         jpVistaHoyLayout.setVerticalGroup(
             jpVistaHoyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -63,7 +63,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jpVistaMedicamentos.setLayout(jpVistaMedicamentosLayout);
         jpVistaMedicamentosLayout.setHorizontalGroup(
             jpVistaMedicamentosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 436, Short.MAX_VALUE)
+            .addGap(0, 360, Short.MAX_VALUE)
         );
         jpVistaMedicamentosLayout.setVerticalGroup(
             jpVistaMedicamentosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -72,24 +72,24 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         jpContenedorPrincipal.add(jpVistaMedicamentos, "card2");
 
-        javax.swing.GroupLayout jpVistaCitasLayout = new javax.swing.GroupLayout(jpVistaCitas);
-        jpVistaCitas.setLayout(jpVistaCitasLayout);
-        jpVistaCitasLayout.setHorizontalGroup(
-            jpVistaCitasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 436, Short.MAX_VALUE)
+        javax.swing.GroupLayout jpVistaAjustes1Layout = new javax.swing.GroupLayout(jpVistaAjustes1);
+        jpVistaAjustes1.setLayout(jpVistaAjustes1Layout);
+        jpVistaAjustes1Layout.setHorizontalGroup(
+            jpVistaAjustes1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 360, Short.MAX_VALUE)
         );
-        jpVistaCitasLayout.setVerticalGroup(
-            jpVistaCitasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jpVistaAjustes1Layout.setVerticalGroup(
+            jpVistaAjustes1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 590, Short.MAX_VALUE)
         );
 
-        jpContenedorPrincipal.add(jpVistaCitas, "card2");
+        jpContenedorPrincipal.add(jpVistaAjustes1, "card2");
 
         javax.swing.GroupLayout jpVistaAjustesLayout = new javax.swing.GroupLayout(jpVistaAjustes);
         jpVistaAjustes.setLayout(jpVistaAjustesLayout);
         jpVistaAjustesLayout.setHorizontalGroup(
             jpVistaAjustesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 436, Short.MAX_VALUE)
+            .addGap(0, 360, Short.MAX_VALUE)
         );
         jpVistaAjustesLayout.setVerticalGroup(
             jpVistaAjustesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -101,19 +101,18 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         getContentPane().add(jpContenedorPrincipal, java.awt.BorderLayout.CENTER);
 
         jpBarraInferior.setBackground(new java.awt.Color(59, 106, 118));
+        jpBarraInferior.setMaximumSize(new java.awt.Dimension(360, 32767));
+        jpBarraInferior.setMinimumSize(new java.awt.Dimension(360, 23));
         jpBarraInferior.setPreferredSize(new java.awt.Dimension(360, 50));
         jpBarraInferior.setLayout(new java.awt.GridLayout(1, 4));
 
         btnHoy.setText("Hoy");
-        btnHoy.addActionListener(this::btnHoyActionPerformed);
         jpBarraInferior.add(btnHoy);
 
         btnMedicamentos.setText("Medicamentos");
-        btnMedicamentos.addActionListener(this::btnMedicamentosActionPerformed);
         jpBarraInferior.add(btnMedicamentos);
 
         btnCitas.setText("Citas");
-        btnCitas.addActionListener(this::btnCitasActionPerformed);
         jpBarraInferior.add(btnCitas);
 
         btnAjustes.setText("Ajustes");
@@ -125,24 +124,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnHoyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHoyActionPerformed
-        CardLayout card = (CardLayout) jpContenedorPrincipal.getLayout();
-        card.show(jpContenedorPrincipal, "jpVistaHoy");
-    }//GEN-LAST:event_btnHoyActionPerformed
-
-    private void btnMedicamentosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMedicamentosActionPerformed
-        CardLayout card = (CardLayout) jpContenedorPrincipal.getLayout();
-        card.show(jpContenedorPrincipal, "jpVistaMedicamentos");
-    }//GEN-LAST:event_btnMedicamentosActionPerformed
-
-    private void btnCitasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCitasActionPerformed
-        CardLayout card = (CardLayout) jpContenedorPrincipal.getLayout();
-        card.show(jpContenedorPrincipal, "jpVistaCitas");
-    }//GEN-LAST:event_btnCitasActionPerformed
-
     private void btnAjustesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAjustesActionPerformed
-        CardLayout card = (CardLayout) jpContenedorPrincipal.getLayout();
-        card.show(jpContenedorPrincipal, "jpVistaAjustes");
+        // TODO add your handling code here:
     }//GEN-LAST:event_btnAjustesActionPerformed
 
     /**
@@ -178,7 +161,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JPanel jpBarraInferior;
     private javax.swing.JPanel jpContenedorPrincipal;
     private javax.swing.JPanel jpVistaAjustes;
-    private javax.swing.JPanel jpVistaCitas;
+    private javax.swing.JPanel jpVistaAjustes1;
     private javax.swing.JPanel jpVistaHoy;
     private javax.swing.JPanel jpVistaMedicamentos;
     // End of variables declaration//GEN-END:variables

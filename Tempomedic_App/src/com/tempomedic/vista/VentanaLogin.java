@@ -131,9 +131,12 @@ public class VentanaLogin extends javax.swing.JFrame {
         setMinimumSize(new java.awt.Dimension(360, 640));
         setPreferredSize(new java.awt.Dimension(360, 640));
 
+        jpContenedorLogin.setMinimumSize(new java.awt.Dimension(360, 640));
         jpContenedorLogin.setLayout(new java.awt.CardLayout());
 
+        jpTarjetaLogin.setMinimumSize(new java.awt.Dimension(360, 640));
         jpTarjetaLogin.setName("tarjetaLogin"); // NOI18N
+        jpTarjetaLogin.setPreferredSize(new java.awt.Dimension(360, 640));
 
         lblCorreo.setText("Correo:");
 
@@ -185,12 +188,14 @@ public class VentanaLogin extends javax.swing.JFrame {
                 .addComponent(btnIngresar)
                 .addGap(47, 47, 47)
                 .addComponent(btnIrARegistro)
-                .addContainerGap(226, Short.MAX_VALUE))
+                .addContainerGap(193, Short.MAX_VALUE))
         );
 
         jpContenedorLogin.add(jpTarjetaLogin, "jpTarjetaLogin");
 
+        jpTarjetaRegistro.setMinimumSize(new java.awt.Dimension(360, 640));
         jpTarjetaRegistro.setName("tarjetaRegistro"); // NOI18N
+        jpTarjetaRegistro.setPreferredSize(new java.awt.Dimension(360, 640));
 
         lblRegCorreo.setText("Correo:");
 
@@ -256,7 +261,7 @@ public class VentanaLogin extends javax.swing.JFrame {
                 .addComponent(btnGuardarRegistro)
                 .addGap(42, 42, 42)
                 .addComponent(btnVolverLogin)
-                .addContainerGap(195, Short.MAX_VALUE))
+                .addContainerGap(162, Short.MAX_VALUE))
         );
 
         jpContenedorLogin.add(jpTarjetaRegistro, "jpTarjetaRegistro");
