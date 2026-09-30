@@ -41,8 +41,31 @@ La aplicación está diseñada para responder a las necesidades de gestión de s
 
 ### 3.1. Análisis comparativo(benchmarking)
 
-jorge
+#### Aplicaciones similares en el mercado
 
+* **MedControl**: funciona como un asistente de salud personal y pastillero virtual. Permite crear alarmas personalizadas para medicamentos, llevar un control de inventario y organizar recordatorios para citas médicas. Además, incluye un diario de tensión arterial y seguimiento de síntomas.  
+* **Recordatorio de Medicamentos 2**: se centra en la adherencia al tratamiento. Ofrece recordatorios altamente configurables (cada X horas, días específicos, etc.), alertas cuando quedan pocas pastillas y la posibilidad de enviar reportes por correo al médico. Además permite agendar recordatorios de citas médicas.  
+* **CareClinic**: va más allá de la medicación. Permite a los usuarios registrar síntomas, mediciones, estado de ánimo y nutrición. Sus recordatorios son personalizables para medicamentos y citas, también admite la gestión de múltiples perfiles, como hijos o personas mayores.  
+* **Biva**: está diseñada para pacientes y cuidadores. Permite registrar condiciones médicas y tratamientos, estableciendo recordatorios para cada uno. Integra servicios como la recarga de medicamentos y la reserva de citas médicas, con un enfoque en la relación paciente-cuidador.  
+* **DayMedy**: es una aplicación de telemedicina que integra consultas en línea, gestión de prescripciones digitales y programación de citas. Tras una consulta, el usuario recibe la receta en la app y puede configurar recordatorios para la medicación. También permite gestionar los registros de salud de la familia.  
+* **Medical Reminder**: se enfoca en la simplicidad y la privacidad, funcionando sin conexión a internet. Ofrece recordatorios fiables para medicamentos y citas médicas, con un diseño de texto grande ideal para adultos mayores y cuidadores. Permite generar informes de salud en PDF para compartir con los médicos.  
+* **Otras aplicaciones**: también existen ejemplos como **IMQ** (de una aseguradora de salud), **MyCarePlan**, **PineApp** y **MedGemak**, que ofrecen funcionalidades parciales o totales, como gestión de citas, historial clínico, videoconsulta y alarmas de medicación.
+
+#### Noticias y tendencias recientes
+
+* **Éxito de las tarjetas sanitarias virtuales**: en la Comunidad de Madrid, la Tarjeta Sanitaria Virtual (TSV) ha registrado cerca de 57 millones de accesos en 2025, un 43,5% más que el año anterior. Los servicios más utilizados son la gestión de citas médicas, la consulta de medicación y el acceso a informes. La aplicación ha incorporado herramientas como recordatorios de citas de atención primaria, que han enviado más de 5 millones de notificaciones, y alertas sobre la dispensación de medicamentos en farmacias.  
+* **Integración de IA en portales de pacientes**: Oracle Health ha lanzado un portal de pacientes con inteligencia artificial que ofrece resúmenes de salud, recordatorios automáticos de visitas y la posibilidad de programar citas de seguimiento. Esta IA ayuda a los pacientes a entender sus planes de cuidado y medicamentos en un lenguaje sencillo, buscando mejorar la adherencia al tratamiento.  
+* **Nuevos modelos de negocio y funcionalidades**: Startups como **Assort Health** han levantado capital significativo para plataformas que utilizan IA para conectar la programación de citas, la gestión de medicamentos y los pagos en un solo sistema. Por otro lado, **Amazon** ha lanzado un agente de IA para la salud que puede reservar citas y gestionar recetas médicas.  
+* **Investigación en universidades**: investigadores de la Universidad Miguel Hernández (UMH) de Elche han desarrollado una aplicación para que personas con inmunodeficiencias puedan autogestionar su enfermedad, incluyendo el control de citas y tratamientos con recordatorios personalizados.
+
+#### Estudios académicos sobre eficacia
+
+La literatura científica respalda la eficacia de las aplicaciones móviles para mejorar la adherencia a los tratamientos, especialmente en enfermedades crónicas.
+
+* **Mejora de la adherencia en diabetes**: un metaanálisis de 2025 concluyó que las intervenciones mediante aplicaciones móviles tienen un efecto positivo en la adherencia a la medicación y en el control de la diabetes mellitus tipo 2\.  
+* **Eficacia general de las intervenciones mHealth**: una revisión sistemática y metaanálisis de 2025, publicada en el Journal of Medical Systems, encontró que las intervenciones de salud móvil son efectivas para mejorar la adherencia a la medicación en pacientes con enfermedades crónicas.  
+* **Adherencia en enfermedad renal crónica**: revisión sistemática de 2025 se centró en pacientes con enfermedad renal crónica y concluyó que las aplicaciones móviles mejoran la adherencia, aunque la evidencia es limitada y se necesitan estudios de mayor duración.  
+* **Impacto en pacientes oncológicos**: investigaciones recientes indican que las intervenciones digitales, como las aplicaciones móviles y los sistemas de recordatorio, pueden ayudar a los pacientes con cáncer a adherirse mejor a su medicación.
 ### 3.2. Desarrollo y mejora del producto(Product Backlog)
 **Módulo de Medicación y Recordatorios** 
 
