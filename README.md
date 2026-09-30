@@ -44,15 +44,18 @@ La aplicación está diseñada para responder a las necesidades de gestión de s
 jorge
 
 ### 3.2. Desarrollo y mejora del producto(Product Backlog)
-*Módulo de Medicación y Recordatorios* 
+**Módulo de Medicación y Recordatorios** 
+
 En este primer bloque funcional, el desarrollo arranca con la posibilidad de que el usuario registre un tratamiento especificando el nombre del fármaco, la dosis adecuada y las horas exactas de toma. La prioridad técnica reside en garantizar que la aplicación programe notificaciones locales en el sistema operativo del teléfono, asegurando que los avisos se emitan puntualmente de manera autónoma, incluso si el dispositivo carece de conexión a internet o la aplicación se encuentra cerrada.
 Una vez emitida la alerta, la experiencia se complementa permitiendo que el usuario interactúe directamente con la notificación o la pantalla principal para marcar la dosis como «Tomada» u «Omitida». Esta acción simple actualiza instantáneamente un registro diario de cumplimiento. Con este flujo cerrado de creación, notificación y confirmación de tomas, el usuario obtiene una solución funcional y directa para la adherencia a su medicación, cubriendo la necesidad principal con el mínimo esfuerzo de desarrollo técnico y sin requerir infraestructura en la nube. 
 
-*Módulo de Agenda de Citas Médicas*
+**Módulo de Agenda de Citas Médicas**
+
 El segundo componente esencial aborda la organización de las consultas de salud a través de una agenda sencilla pero efectiva. La funcionalidad permite al usuario completar un formulario básico donde indica la especialidad o el nombre del profesional, la fecha, la hora y el lugar de la consulta, guardando la información en la memoria local del dispositivo. Al momento del registro, el sistema programa automáticamente dos recordatorios preventivos —uno emitido veinticuatro horas antes y otro dos horas antes de la cita— para evitar olvidos o desplazamientos apresurados.
 Para maximizar la utilidad del módulo sin elevar la complejidad de la aplicación, el sistema ofrece la opción de exportar la cita creada al calendario nativo del teléfono (como Google Calendar o Apple Calendar). Mediante este enlace con las herramientas que el usuario ya utiliza en su día a día, la aplicación logra integrar la gestión médica en su rutina diaria de manera transparente, completando así la propuesta de valor inicial del proyecto.
 
 **Criterios de Aceptación y Preparación para Siguientes Fases**
+
 Todas las historias de usuario comparten una restricción clave: la persistencia de datos debe ser estrictamente local y cifrada dentro del dispositivo del usuario. Un requisito de aceptación imprescindible para dar por finalizada esta primera versión es la verificación de las alarmas en diferentes escenarios de ahorro de batería de Android e iOS, garantizando que el sistema no cancele las notificaciones en segundo plano.
 Las funcionalidades orientadas a la gestión de inventario de pastillas, el control de perfiles familiares, la carga de documentos adjuntos o las integraciones con bases de datos farmacológicas quedan explícitamente pospuestas para las iteraciones posteriores al lanzamiento. De este modo, la primera entrega concentrará todo el esfuerzo técnico en la fiabilidad de los recordatorios y la simplicidad de la agenda.
 
