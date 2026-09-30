@@ -39,6 +39,14 @@ La aplicación está diseñada para responder a las necesidades de gestión de s
 
 ## 3. Las decisiones técnicas
 
+### 3.1. Análisis comparativo(benchmarking)
+
+jorge
+
+### 3.2. Desarrollo y mejora del producto(Product Backlog)
+
+### 3.3. Registro del sprint(Sprint Backlog)
+
 ## 4.  Objetivos Principales de la Interfaz (UI/UX)
 
 Puedes encontrar los bocetos de la interfaz en `docs\img\BocetosVistas` o en la [previsualización de Figma](https://www.figma.com/proto/ubk5OfKsRbFFkuf4rPfQUt/Tempomedic-%E2%80%93-Bocetos-Sprint-1--D2-?node-id=2-23&p=f&t=8uHJ1BrWqsgY0J3Z-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2).
