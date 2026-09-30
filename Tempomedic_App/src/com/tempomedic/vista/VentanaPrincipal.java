@@ -8,7 +8,7 @@ import java.awt.CardLayout;
 
 /**
  *
- * @author Santiago
+ * @author Santiago González
  */
 public class VentanaPrincipal extends javax.swing.JFrame {
     
