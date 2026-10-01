@@ -83,7 +83,19 @@ Todas las historias de usuario comparten una restricción clave: la persistencia
 Las funcionalidades orientadas a la gestión de inventario de pastillas, el control de perfiles familiares, la carga de documentos adjuntos o las integraciones con bases de datos farmacológicas quedan explícitamente pospuestas para las iteraciones posteriores al lanzamiento. De este modo, la primera entrega concentrará todo el esfuerzo técnico en la fiabilidad de los recordatorios y la simplicidad de la agenda.
 
 ### 3.3. Registro del sprint(Sprint Backlog)
-
+El desarrollo del Sprint 1 se ha enfocado en consolidar las bases, el diseño visual de las interfaces y la arquitectura del proyecto **TempoMedic**. 
+* **Fechas de ejecución:** 12/10 – 23/10
+* **Objetivo principal:** Diseñar la maquetación visual de las pantallas, procesar los datos de investigación mediante encuestas, recolección de los datos, documentación de información
+| **S1-01** | Procesamiento y análisis de las encuestas de recolección de usuarios / Completado |
+| **S1-02** | Redacción de Historias de Usuario (HU01-HU05) y Criterios de Aceptación / Completado |
+| **S1-03** | Diseño de la arquitectura gráfica/ Completado |
+| **S1-04** | Diseñar el modelo de datos local (`Cita`, `Medicamento`, `Toma`) / Completado |
+| **S1-05** | Maquetación visual e interfaz accesible / Completado |
+| **S1-06** | Redacción del plan de seguridad, privacidad / Completado |
+| **S1-07** | Lógica y diseño del sistema de recordatorios (alarmas/notificaciones sonoras y silenciosas) / Completado |
+| **S1-08** | Plan de seguimiento, plantilla de pruebas y gestión de incidencias en GitHub / Completado |
+| **S1-09** | Sesión de Cierre / Completado |
+* 
 ## 4.  Objetivos Principales de la Interfaz (UI/UX)
 
 Puedes encontrar los bocetos de la interfaz en `docs\img\BocetosVistas` o en la [previsualización de Figma](https://www.figma.com/proto/ubk5OfKsRbFFkuf4rPfQUt/Tempomedic-%E2%80%93-Bocetos-Sprint-1--D2-?node-id=2-23&p=f&t=8uHJ1BrWqsgY0J3Z-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2).
