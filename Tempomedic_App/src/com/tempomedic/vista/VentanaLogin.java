@@ -129,7 +129,6 @@ public class VentanaLogin extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(360, 640));
-        setPreferredSize(new java.awt.Dimension(360, 640));
 
         jpContenedorLogin.setMinimumSize(new java.awt.Dimension(360, 640));
         jpContenedorLogin.setLayout(new java.awt.CardLayout());
@@ -147,7 +146,6 @@ public class VentanaLogin extends javax.swing.JFrame {
         txtContrasena.addActionListener(this::txtContrasenaActionPerformed);
 
         btnIngresar.setText("Iniciar Sesión");
-        btnIngresar.addActionListener(this::btnIngresarActionPerformed);
 
         btnIrARegistro.setLabel("Crear cuenta");
         btnIrARegistro.addActionListener(this::btnIrARegistroActionPerformed);
@@ -210,7 +208,6 @@ public class VentanaLogin extends javax.swing.JFrame {
         txtRegContrasenaRep.addActionListener(this::txtRegContrasenaRepActionPerformed);
 
         btnGuardarRegistro.setLabel("Crear cuenta");
-        btnGuardarRegistro.addActionListener(this::btnGuardarRegistroActionPerformed);
 
         btnVolverLogin.setText("¿Ya tienes cuenta? Inicia sesión");
         btnVolverLogin.addActionListener(this::btnVolverLoginActionPerformed);
@@ -275,10 +272,6 @@ public class VentanaLogin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtContrasenaActionPerformed
 
-    private void btnIngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIngresarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnIngresarActionPerformed
-
     private void btnIrARegistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIrARegistroActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnIrARegistroActionPerformed
@@ -290,10 +283,6 @@ public class VentanaLogin extends javax.swing.JFrame {
     private void btnVolverLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVolverLoginActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnVolverLoginActionPerformed
-
-    private void btnGuardarRegistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGuardarRegistroActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnGuardarRegistroActionPerformed
 
     private void txtRegCorreoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtRegCorreoActionPerformed
         // TODO add your handling code here:
