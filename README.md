@@ -86,15 +86,23 @@ Las funcionalidades orientadas a la gestión de inventario de pastillas, el cont
 El desarrollo del Sprint 1 se ha enfocado en consolidar las bases, el diseño visual de las interfaces y la arquitectura del proyecto **TempoMedic**. 
 * **Fechas de ejecución:** 12/10 – 23/10
 * **Objetivo principal:** Diseñar la maquetación visual de las pantallas, procesar los datos de investigación mediante encuestas, recolección de los datos, documentación de información
-| **S1-01** | Procesamiento y análisis de las encuestas de recolección de usuarios / Completado |
-| **S1-02** | Redacción de Historias de Usuario (HU01-HU05) y Criterios de Aceptación / Completado |
-| **S1-03** | Diseño de la arquitectura gráfica/ Completado |
-| **S1-04** | Diseñar el modelo de datos local (`Cita`, `Medicamento`, `Toma`) / Completado |
-| **S1-05** | Maquetación visual e interfaz accesible / Completado |
-| **S1-06** | Redacción del plan de seguridad, privacidad / Completado |
-| **S1-07** | Lógica y diseño del sistema de recordatorios (alarmas/notificaciones sonoras y silenciosas) / Completado |
-| **S1-08** | Plan de seguimiento, plantilla de pruebas y gestión de incidencias en GitHub / Completado |
-| **S1-09** | Sesión de Cierre / Completado |
+*| **S1-01** | Procesamiento y análisis de las encuestas de recolección de usuarios / Completado |
+
+*| **S1-02** | Redacción de Historias de Usuario (HU01-HU05) y Criterios de Aceptación / Completado |
+
+*| **S1-03** | Diseño de la arquitectura gráfica/ Completado |
+
+*| **S1-04** | Diseñar el modelo de datos local (`Cita`, `Medicamento`, `Toma`) / Completado |
+
+*| **S1-05** | Maquetación visual e interfaz accesible / Completado |
+
+*| **S1-06** | Redacción del plan de seguridad, privacidad / Completado |
+
+*| **S1-07** | Lógica y diseño del sistema de recordatorios (alarmas/notificaciones sonoras y silenciosas) / Completado |
+
+*| **S1-08** | Plan de seguimiento, plantilla de pruebas y gestión de incidencias en GitHub / Completado |
+
+*| **S1-09** | Sesión de Cierre / Completado |
 * 
 ## 4.  Objetivos Principales de la Interfaz (UI/UX)
 
