@@ -98,7 +98,7 @@ El desarrollo del Sprint 1 se ha enfocado en consolidar las bases, el diseño vi
 * 
 ## 4.  Objetivos Principales de la Interfaz (UI/UX)
 
-Puedes encontrar los bocetos de la interfaz en `docs\img\BocetosVistas` o en la [previsualización de Figma](https://www.figma.com/proto/ubk5OfKsRbFFkuf4rPfQUt/Tempomedic-%E2%80%93-Bocetos-Sprint-1--D2-?node-id=2-23&p=f&t=8uHJ1BrWqsgY0J3Z-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2).
+Puedes encontrar los bocetos de la interfaz en `docs\img\BocetosVistas` o en la [previsualización de Figma](https://www.figma.com/proto/ubk5OfKsRbFFkuf4rPfQUt/Tempomedic-%E2%80%93-Bocetos-Sprint-1?node-id=2-2&p=f&t=ziVSvWBFrGusDbKS-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2&show-proto-sidebar=1).
 
 El diseño de la interfaz de **Tempomedic** se ha estructurado para ofrecer una experiencia sencilla, accesible y adaptada a las necesidades obtenidas en la encuesta. Los objetivos  del diseño son:
 
